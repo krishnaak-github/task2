@@ -1,0 +1,59 @@
+.parent{
+    background-color:  white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex:6 ;
+}
+.subparent{
+    width: 600px;
+    height: 500px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      border: solid;
+      background-color:rgb(117, 44, 44);
+      
+}
+.button1{
+    width: 500px;
+    height: 40PX;
+    border-radius:  15px;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 500px;
+    /* border: solid; */
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.button3{
+    width: 500px;
+    height: 40px;
+    border-radius:  15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    cursor: pointer;
+}   
+
+.box2{
+    padding-top: 15px;
+}
+.button3:hover{
+    background-color: gray;
+}
+
